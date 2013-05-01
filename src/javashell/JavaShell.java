@@ -34,7 +34,7 @@ public class JavaShell {
     }
     
    public static void main(String[] args) throws IOException {
-        ShellFactory.createConsoleShell("test", "A simple test shell.", new JavaShell())
+        ShellFactory.createConsoleShell("test", "JARVIS Shell v0.01.", new JavaShell())
             .commandLoop(); // and three.
     }
     
